@@ -1,0 +1,6 @@
+framework module UIButtonX {
+  umbrella header "UIButtonX-umbrella.h"
+
+  export *
+  module * { export * }
+}

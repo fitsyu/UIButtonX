@@ -1,0 +1,6 @@
+framework module Pods_UIButtonX_Tests {
+  umbrella header "Pods-UIButtonX_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,7 @@
 import XCTest
 import UIButtonX
+import Quick
+import Nimble
 
 class Tests: XCTestCase {
     
@@ -26,3 +28,35 @@ class Tests: XCTestCase {
     }
     
 }
+
+//class UIButtonX_Specification: QuickSpec {
+//    
+//    override func spec() {
+//        
+//        describe("given a button titled 'button'") {
+//            
+//            let containerView: UIView = UIView()
+//            
+//            let button: UIButtonX! = UIButtonX()
+//            button.setTitle("button", forState: .normal)
+//            button.addTarget(listener, #selector(buttonDismissed), forEvent: .dismissed)
+//            
+//            containerView.addSubview(button)
+//            
+//            context("when its 'x' button is pressed") {
+//                
+//                // programmatically press its x button
+//                button.dismiss()
+//                
+//                it("notifies when it about to disppears") {
+//                    expect( listener.buttonDissmissedCalled ).to(true)
+//                }
+//                
+//                it("disappears") {
+//                    expect(button ).to(beNil())
+//                }
+//            }
+//        }
+//    }
+//}
+

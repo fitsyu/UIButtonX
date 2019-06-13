@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+  - UIButtonX (0.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - UIButtonX (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  UIButtonX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  UIButtonX: c2a14c673999aef6eba9807966ed4bdfd6ddd573
+
+PODFILE CHECKSUM: 87d2e31e8b44b83ff0b91db5447cec1f87ef56a6
+
+COCOAPODS: 1.7.1

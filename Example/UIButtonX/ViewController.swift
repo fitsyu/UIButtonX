@@ -7,18 +7,43 @@
 //
 
 import UIKit
+import UIButtonX
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var stackView: UIStackView!
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        fillWithSixButtonX()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func fillWithSixButtonX() {
+        
+        for i in 1...6 {
+            
+            let buttonX = UIButtonX()
+            buttonX.setTitle("button x: \(i)", for: .normal)
+            buttonX.addTarget(self, action: #selector(touched), for: .touchUpInside)
+            buttonX.addTarget(self, action: #selector(handleDismissal), for: .dismissed)
+            
+            stackView.addArrangedSubview(buttonX)
+        }
     }
-
+    
+    @objc func touched(_ sender: UIButton) {
+        let title = sender.currentTitle ?? ""
+        
+        textView.text.append("\n")
+        textView.text.append("touched \(title)")
+    }
+    
+    @objc func handleDismissal(_ sender: UIButton) {
+        let title = sender.currentTitle ?? ""
+        textView.text.append("\n")
+        textView.text.append("dismiss buttonX \(title)")
+    }
 }
 
