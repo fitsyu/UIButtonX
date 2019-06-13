@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIButtonX_Example' do
+  pod 'UIButtonX', :path => '../'
+
+  target 'UIButtonX_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
