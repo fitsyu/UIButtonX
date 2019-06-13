@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'UIButtonX/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'UIButtonX' => ['UIButtonX/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'UIButtonX' => ['UIButtonX/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

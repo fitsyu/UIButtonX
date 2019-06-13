@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0026356797A73C8C4922B4D1B404C8E7 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E96393F1B6CCA08BF22BD52182B718 /* Callsite.swift */; };
 		01A1BFDD1A5405F88AF5FA4A8162209A /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA5F5BD67D707AA716145591CA7D6 /* World.swift */; };
-		0699577BD607757197C301E6F4E1822E /* UIButtonX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F95CBA224BD89E6A90B16E4871BEB1 /* UIButtonX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		093B514AF1063F1DA238899699E270DC /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A8313EAA34BE645217DF2852E1522C4B /* QuickSpec.m */; };
 		09B297BD6AFB877C72BAACA93DA5A883 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FAD88BB13235D753745BB0BD020DC /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		0AECF1E83CBECC083136E419C6C632CA /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CC26A7C8608378C3FD9889E4AD23BF /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -26,7 +25,9 @@
 		28446C027888709D72CCF46A3AB9D72D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEEBEBF7B787898DF09E2EED055400F /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		29D80797F6623CD2CB3DE25027BD33F8 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB541A541AF860EEA97FE5501182862 /* SuiteHooks.swift */; };
 		2E337C690EC22D7A14B8CECCEC0E0DB0 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4DE94AC94FFBF28441A0C36561FC78 /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		2EB329EA114CFE83F7AA6A6537F28D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		2ED8027DDE87BA96D1015EEBF51AD9E6 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFEEEC9948D8453804CF7F9368DEE5E /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F56464DA4DBDBA0FAACA19CE78280FA /* UIButtonX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4126ED9F759D770E4C4E3831E625C23D /* UIButtonX-dummy.m */; };
 		2FA8A34100187D5C3FA290CC595AD0E6 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E669D410B80DA80A4E1F68BE665EAC /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		300F38729493A8AA14CC2D7D57E2718F /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065E13545322CFF21FDD119A616DA78A /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		318031C30FF0A82ACAA7A26C31EDA33B /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C348A0AEB51F638DA71120681121C /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -40,9 +41,12 @@
 		4323D32B3358A3EC9A6115C532E80314 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885169D56AF63F349D986F6FD6A19304 /* Quick-dummy.m */; };
 		43FDEAC84F388BF4C8F07F36403B929A /* Pods-UIButtonX_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE57459C3B7528B3D1F275C2B9DBB814 /* Pods-UIButtonX_Tests-dummy.m */; };
 		47670595847368876E3EE8B7D433C506 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84974814F581E3C4109C60E745BC7FA7 /* HooksPhase.swift */; };
+		47CD5682310C69C39DC8C2C3D45530F5 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC5A179AC3A6AC3104ABCFF057B0704 /* Icons.xcassets */; };
+		48E60823DEC3ACD6F050B8D71A7879E5 /* UIButtonX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA93A2F176762E273DBA00B5BFDBBFA4 /* UIButtonX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEC9C035622F4D4506DD25468515304 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BBF0EC502678F53DF8E608F8A6ACAD /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50507B7B2A53B164B173A66463422828 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6EF353CCE6BBF803A1F717FBEC8D1 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		51DDF0A3228BC604D227FE47E0296624 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */; };
+		544360734AA90C59FF9C17AB7B55E138 /* UIButtonX.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2746F21BBF7ECE8E6F40EC81BCEAA71C /* UIButtonX.bundle */; };
 		550407BE017E8F9C887FB3C2E3AF5641 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F246159743DE22E6CD521024BC0F8B /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		552476489423BE8B6F3D12CC7097A3B4 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0530A8F7FBFDC9F647711A1B1906204 /* Nimble-dummy.m */; };
 		57694C401F4C87A06394D9B589E412B9 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012EE64BD755D0863890CA9320E900A3 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -80,11 +84,9 @@
 		9F585CDA5A2FD9BCB0B9A37E722AD387 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FCB20926BF616C0519CF8F6AF0431A /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A01F43A066E49080EDF1247955804114 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A295B06D321277C67CED13393F6F /* QuickTestSuite.swift */; };
 		A036C8323484A5009F20DDBC73B8DFD4 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7A4D2583FD85F7DB51543BA1D94E9 /* QuickSelectedTestSuiteBuilder.swift */; };
-		A07D98DB5FB5803C797F76980A62B559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		A350958D67377DE80E194D50D5F6C3B4 /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3859EAFA486485F8FA5D6B49A11D2 /* CwlBadInstructionException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A77C011D550EFFB05C3609BFB4DAE378 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36B3C15E01EE137782FAC1B4FF87475 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A971D89C528D23212F024B371F0E1718 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = C583D55E93D2C23506816D0ECC9CB0B0 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9D03E27D39F118F066BC1068E4E8669 /* UIButtonX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D90D95B5517555DC864EB926E11AEA9 /* UIButtonX-dummy.m */; };
 		AAD8D9F508F9CC045C4715D1F27B2A73 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696B48A141606A71BC0ABD43B9A52D8F /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AD6681E3DFBC3870EA1FB6AF1B94CF6E /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD691153E3D635D7044FC779C5E82DB /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AF749D5A7AB360F4FFCAA9BB96E5065F /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4175EF98E338D8D5D3702B8E48D7D /* URL+FileName.swift */; };
@@ -94,6 +96,7 @@
 		BC53B1347CCACC50814A102FA46B658B /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7D88B76C4738E7B74168479A92315 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BCA742E6126C8F55FB3085AC5A056CB7 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B89A93059F29AC9ACCCAC660F4AFEA /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BD91B77F283982F04CE948EA38795EFA /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D76E5BE2C06FDC8DD47B8BFBAE133 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		BF70F79C9825419FCCD9B031AEA4A202 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666ED87259178B3F4F36A549E9A79F9 /* UIButtonX.swift */; };
 		BF9235130FD15BA4CAB3E828ADFACD97 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E94646E4C206F66E9782E6E193B11 /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C362C08C3C9DF2344E7F9754F740EF25 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2D0652D8F3AACE18A933AE4B00D6DD /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C425B8C3EC8C0612698840BEE599E2A4 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132106EC2A2B0BF3B777DF7150EC3A1 /* Example.swift */; };
@@ -108,8 +111,6 @@
 		DC814E889B3E67A3A4D1A0C00E033171 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516302BEEE3227BA3C6DAD440E033F8F /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DF0E0B472D8BCA7BA6BA8DCCA7177989 /* Pods-UIButtonX_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 320B7CF8B6A586BBCACEB5855E62DAE6 /* Pods-UIButtonX_Example-dummy.m */; };
 		E608140179A5D294C91496AEE7136774 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFA2D981F85EAF6601CE6AC577D669 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		E83BC4BE22B2B1F4000359BC /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83BC4BD22B2B1F4000359BC /* Icons.xcassets */; };
-		E88FC24D22B297F300197340 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FC24C22B297F300197340 /* UIButtonX.swift */; };
 		E90BD1844A60E3A65F8664BB795B71FF /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3A522E1EFCE6A2A59F49005B74E34 /* String+C99ExtendedIdentifier.swift */; };
 		EBA32302B6D87E589245832B2C6EF50F /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248FB8AF316C9C78E22B71BC196957D /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		ECA13E8BB0EF60C0A9243E0E8039A4C5 /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 136C47632F7E7F3F6A79AABB1A23ABCC /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -134,6 +135,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
 			remoteInfo = Nimble;
+		};
+		A48AD0ABE63E38EFCFFF37EDBEBA0C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88611A020BCD6723575BBEDC21BE74E;
+			remoteInfo = "UIButtonX-UIButtonX";
 		};
 		DBE24FADD91E215954BA5BB4FB15F734 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -170,48 +178,49 @@
 		083FAD88BB13235D753745BB0BD020DC /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		0B2D0652D8F3AACE18A933AE4B00D6DD /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		0D1C348A0AEB51F638DA71120681121C /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED6EF353CCE6BBF803A1F717FBEC8D1 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		1208008CFB860726BD6C3DD35E138D78 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		136C47632F7E7F3F6A79AABB1A23ABCC /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		13F246159743DE22E6CD521024BC0F8B /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		16602DD9FB05FA5EDA288D40D2BE6F29 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
-		1C51E5617C68C4B6D4C1EE1935DFFD48 /* Pods_UIButtonX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C51E5617C68C4B6D4C1EE1935DFFD48 /* Pods_UIButtonX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonX_Example.framework; path = "Pods-UIButtonX_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210665BFE3528B2C6FDC82241D011747 /* Pods-UIButtonX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonX_Example-Info.plist"; sourceTree = "<group>"; };
 		23FAD2462D03C757D0F7C333E9CC3968 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		2450165A9350C8074899189666ECDA5C /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
 		24869D429F09ACFA3227C2E18B5890BD /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		272E81A763DF094D944F3A4E51DEAEA0 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
+		2746F21BBF7ECE8E6F40EC81BCEAA71C /* UIButtonX.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UIButtonX.bundle; path = "UIButtonX-UIButtonX.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2934A3B4FE683A7B1077812515D6E5F0 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		293CFDB88F901F748EEF52B1B0A16F05 /* Pods-UIButtonX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B4B77072E61B87D1AEA018BB9DFE376 /* Pods_UIButtonX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BDEAA572BBE614BB8FD7D914BCB90EB /* UIButtonX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIButtonX-Info.plist"; sourceTree = "<group>"; };
+		2B4B77072E61B87D1AEA018BB9DFE376 /* Pods_UIButtonX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonX_Tests.framework; path = "Pods-UIButtonX_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2E416B96F586F3EB4A1DBACB1614B452 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		2FD3C0D4239C9AF15D57728ECFF539CA /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		320B7CF8B6A586BBCACEB5855E62DAE6 /* Pods-UIButtonX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonX_Example-dummy.m"; sourceTree = "<group>"; };
+		328EF2A4364EB2297A4298848AC20113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3605CD17F17021908B0ABAFF3FA8A016 /* Pods-UIButtonX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		364E9FAB6806BBBDFD1BD4E5C7A6126F /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		368540D083788E46A27376E7CB7215E0 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		3D4DE94AC94FFBF28441A0C36561FC78 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		3D900C005C0C55BB3BD3C460F1671CCD /* UIButtonX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIButtonX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E9F7D22BF5690CB87C3259789439181 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		3EFEEEC9948D8453804CF7F9368DEE5E /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		406655908ED5468CE961BB85AB39C8A7 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		4126ED9F759D770E4C4E3831E625C23D /* UIButtonX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButtonX-dummy.m"; sourceTree = "<group>"; };
 		416BF5783026D8025A405E53C879E57E /* Pods-UIButtonX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonX_Example.modulemap"; sourceTree = "<group>"; };
 		41AEFF6F0F8641915460E14078EAA621 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		422D1D2C5EAA1517BC9DD050822F4A05 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickSpecBase/QuickSpecBase.m; sourceTree = "<group>"; };
-		433DEE97B4F93656FE3A70B8070C0477 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		441B1D5DAE79FCCB2C541078158C4BF6 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		465AE41C5EDD179EB8E2E75DDA09D54B /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
 		48FEC9D5A615C2DFE3E756E8D25871A8 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		4B83D217F8E7A64B46E30FCA1BC58BF7 /* Pods-UIButtonX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonX_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4EE45709161F6DDA24A478CDF0B5CCF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		516302BEEE3227BA3C6DAD440E033F8F /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		5243E8433E7F4F1E8C496EC66E5F0F55 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
 		58A604DB3342A6E0AA9368867F21DB65 /* Pods-UIButtonX_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonX_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58F48EA9176333C42AB66E85E4BAA9FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5AA48BA1D17B1B83CE23CDC2248A7701 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		5CB541A541AF860EEA97FE5501182862 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
-		5D90D95B5517555DC864EB926E11AEA9 /* UIButtonX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButtonX-dummy.m"; sourceTree = "<group>"; };
 		60909C72945118E784FF4AEF6450E356 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
 		62E7A4D2583FD85F7DB51543BA1D94E9 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
 		635F5DBC335A276945791E832D405319 /* Pods-UIButtonX_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonX_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -220,7 +229,6 @@
 		65854C431528E8C830E8B7C38D0C07FD /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		68938017DBE8BABA6FF05E15B614FA9B /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		68DFDEAF0E15D4641FA074BE55E8C752 /* Pods-UIButtonX_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonX_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		694A18B3D69700EE08910B27520F7192 /* UIButtonX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIButtonX.modulemap; sourceTree = "<group>"; };
 		696B48A141606A71BC0ABD43B9A52D8F /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		6B4FE44A565B7D51777C3DCF0536EE10 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		6BBAA1DC1CA8B0EFC72B63DBDF6330FB /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
@@ -229,14 +237,16 @@
 		6F741A325D114DF7E530BDD203FB56B4 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		722949AE9C9F2FA0EF6CFB37D69144B8 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		75D3859EAFA486485F8FA5D6B49A11D2 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
+		7666ED87259178B3F4F36A549E9A79F9 /* UIButtonX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = UIButtonX/Classes/UIButtonX.swift; sourceTree = "<group>"; };
 		79E669D410B80DA80A4E1F68BE665EAC /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
-		79F95CBA224BD89E6A90B16E4871BEB1 /* UIButtonX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonX-umbrella.h"; sourceTree = "<group>"; };
+		79FD2F9E41C55088334E5D475DE3DDEF /* ResourceBundle-UIButtonX-UIButtonX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UIButtonX-UIButtonX-Info.plist"; sourceTree = "<group>"; };
 		7AF3B3EFA75292B9FDDC5E6B447AEEAC /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		7BD691153E3D635D7044FC779C5E82DB /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		7EA4ACEB8BB07BE97686541FE31664DC /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		80EFA2D981F85EAF6601CE6AC577D669 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		81F935EBD39724CDCD2E42790617701D /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
+		820EC9A97131174D9096E9C8E9A3F139 /* UIButtonX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIButtonX.modulemap; sourceTree = "<group>"; };
 		8248FB8AF316C9C78E22B71BC196957D /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		8263FE30A0637516FC0C9EAF7D240603 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		84974814F581E3C4109C60E745BC7FA7 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
@@ -252,12 +262,13 @@
 		8F5C33FCF3C391E0E3190F73C30233F0 /* Pods-UIButtonX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F83AA747B59E2383BB6662A3B086129 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		90C5E2161B26FB91DE16BFC45DAEC7BF /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
-		9194C82BBC06F2BF3019F69BBA2CFE6A /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		9194C82BBC06F2BF3019F69BBA2CFE6A /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		94A3A522E1EFCE6A2A59F49005B74E34 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		97CC26A7C8608378C3FD9889E4AD23BF /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		9A0D1AFC5AE24413DD273B5725D87879 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE8D38CF8629B3F8FFB507035B39DDE /* Pods-UIButtonX_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonX_Tests.modulemap"; sourceTree = "<group>"; };
+		9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonX.xcconfig; sourceTree = "<group>"; };
 		A0530A8F7FBFDC9F647711A1B1906204 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		A0713C2B1F2467E75D3BC1B8B5F4965A /* Pods-UIButtonX_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonX_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A42F9FD5967F56D0BEC6D01D8036617B /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
@@ -267,13 +278,16 @@
 		A8313EAA34BE645217DF2852E1522C4B /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		A957896A3325D9065B06E8F877B18D37 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
 		AAA00E6ECFBD06AA69DFF17B3D735133 /* Pods-UIButtonX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC5A179AC3A6AC3104ABCFF057B0704 /* Icons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = UIButtonX/Assets/Icons.xcassets; sourceTree = "<group>"; };
 		ACBC5226F7B70DA1DB008F41E4A01382 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		ACEB3B980103F727C9A633F3B80B1C75 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		AE6F209352A13BD917FF5EC0A629FFF2 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		AEA16EC6C104C12FDA138C88DAE89FDC /* UIButtonX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonX-prefix.pch"; sourceTree = "<group>"; };
 		B14E94646E4C206F66E9782E6E193B11 /* ElementsEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementsEqual.swift; path = Sources/Nimble/Matchers/ElementsEqual.swift; sourceTree = "<group>"; };
+		B5940ACAAABD7B4BA14F454FFC004C6D /* UIButtonX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIButtonX-Info.plist"; sourceTree = "<group>"; };
 		B6E258AD83036FBA23547DE0C55FBC5A /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		B78AA73FEF330434C45FACA476DDCA6E /* UIButtonX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIButtonX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78AA73FEF330434C45FACA476DDCA6E /* UIButtonX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButtonX.framework; path = UIButtonX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB983C01ACCC87D37C64FEEEBD015E6C /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		C132106EC2A2B0BF3B777DF7150EC3A1 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		C2E47533D52832DD152803938E8A8C59 /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
@@ -285,18 +299,14 @@
 		D0F049F75F04FA056779DB22775048E7 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		D0FCB20926BF616C0519CF8F6AF0431A /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		D2B077F09D6DBE64FF23B4C78D3D7E69 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		D5B87D782BF750D3CBA250C6A329829D /* UIButtonX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonX-prefix.pch"; sourceTree = "<group>"; };
 		DA112225FF526E65896DDDF956F74AF1 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
-		DA4D949671A8E816CFDB78728F053EB9 /* UIButtonX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonX.xcconfig; sourceTree = "<group>"; };
+		DA93A2F176762E273DBA00B5BFDBBFA4 /* UIButtonX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonX-umbrella.h"; sourceTree = "<group>"; };
 		DE57459C3B7528B3D1F275C2B9DBB814 /* Pods-UIButtonX_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonX_Tests-dummy.m"; sourceTree = "<group>"; };
 		E06F79CAFC1A7C21CE9CA39591BCAAC4 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		E36B3C15E01EE137782FAC1B4FF87475 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		E4893AA0C4CC52C0B2A7A222C417D540 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		E5E4175EF98E338D8D5D3702B8E48D7D /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		E83BC4BD22B2B1F4000359BC /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
-		E88FC24C22B297F300197340 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		E95C097AC4A09CDB68046D06F27A01C1 /* Pods-UIButtonX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonX_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E9F00896B5B67A400748C2A7FD3FF6D8 /* UIButtonX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIButtonX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EB7332A0B6ABF2ED2D514AA4D9D86E93 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		EBF402CCF9EF2351AC00305C0B3C4527 /* Pods-UIButtonX_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonX_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC1D76E5BE2C06FDC8DD47B8BFBAE133 /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
@@ -311,14 +321,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2248781C7789F361D49A868CA28F868F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A07D98DB5FB5803C797F76980A62B559 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F5152C2C3B861B9F6CA92DAE5050FA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,11 +338,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3657CCF7566E5A841345E9A966C8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA4A379B9684957A4A2C8860C2FD2B28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7BEC5E4CA44C29D1911402A69D9D4D0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5985BDC33789306A4A797E663CADB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB329EA114CFE83F7AA6A6537F28D93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,16 +372,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A5A6B8EB5D0A646E99A5136547342B6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4EE45709161F6DDA24A478CDF0B5CCF0 /* LICENSE */,
-				433DEE97B4F93656FE3A70B8070C0477 /* README.md */,
-				E9F00896B5B67A400748C2A7FD3FF6D8 /* UIButtonX.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,30 +395,6 @@
 			);
 			name = "Pods-UIButtonX_Tests";
 			path = "Target Support Files/Pods-UIButtonX_Tests";
-			sourceTree = "<group>";
-		};
-		374D8279D042EF625DEFB0909B3851D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
-				1C51E5617C68C4B6D4C1EE1935DFFD48 /* Pods_UIButtonX_Example.framework */,
-				2B4B77072E61B87D1AEA018BB9DFE376 /* Pods_UIButtonX_Tests.framework */,
-				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
-				B78AA73FEF330434C45FACA476DDCA6E /* UIButtonX.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3DEF5380E41983FCBB57D27154546364 /* UIButtonX */ = {
-			isa = PBXGroup;
-			children = (
-				E88FC24722B297C200197340 /* Assets */,
-				E88FC24422B297C200197340 /* Classes */,
-				0A5A6B8EB5D0A646E99A5136547342B6 /* Pod */,
-				BAB44FB475B74D8BE8E66CA8ED364744 /* Support Files */,
-			);
-			name = UIButtonX;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		3E285571EF144F8DACCF451128B351DD /* iOS */ = {
@@ -458,6 +441,7 @@
 				2934A3B4FE683A7B1077812515D6E5F0 /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				EDF1A86CF327EB110CDB275D6940B008 /* Support Files */,
 			);
+			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -470,23 +454,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		92DB9EB7D8A18C75B299554EAE025F7B /* Development Pods */ = {
+		695D360DA65C468265DA137196CC4E42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3DEF5380E41983FCBB57D27154546364 /* UIButtonX */,
+				AAC5A179AC3A6AC3104ABCFF057B0704 /* Icons.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BA457CA141D6B028CF141B63CBE9187 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5FE4C45DCFBC5DFF4F3CAA9EDC8E9BE /* UIButtonX */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BAB44FB475B74D8BE8E66CA8ED364744 /* Support Files */ = {
+		89C5877EAAF2E40B7A60A76755989A9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				694A18B3D69700EE08910B27520F7192 /* UIButtonX.modulemap */,
-				DA4D949671A8E816CFDB78728F053EB9 /* UIButtonX.xcconfig */,
-				5D90D95B5517555DC864EB926E11AEA9 /* UIButtonX-dummy.m */,
-				2BDEAA572BBE614BB8FD7D914BCB90EB /* UIButtonX-Info.plist */,
-				D5B87D782BF750D3CBA250C6A329829D /* UIButtonX-prefix.pch */,
-				79F95CBA224BD89E6A90B16E4871BEB1 /* UIButtonX-umbrella.h */,
+				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
+				1C51E5617C68C4B6D4C1EE1935DFFD48 /* Pods_UIButtonX_Example.framework */,
+				2B4B77072E61B87D1AEA018BB9DFE376 /* Pods_UIButtonX_Tests.framework */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
+				2746F21BBF7ECE8E6F40EC81BCEAA71C /* UIButtonX.bundle */,
+				B78AA73FEF330434C45FACA476DDCA6E /* UIButtonX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FE4C45DCFBC5DFF4F3CAA9EDC8E9BE /* UIButtonX */ = {
+			isa = PBXGroup;
+			children = (
+				7666ED87259178B3F4F36A549E9A79F9 /* UIButtonX.swift */,
+				DE016588E9C855CE3385C87B5B288A2F /* Pod */,
+				695D360DA65C468265DA137196CC4E42 /* Resources */,
+				B44E8A1206DDB68529276AA0E1A96610 /* Support Files */,
+			);
+			name = UIButtonX;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B44E8A1206DDB68529276AA0E1A96610 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FD2F9E41C55088334E5D475DE3DDEF /* ResourceBundle-UIButtonX-UIButtonX-Info.plist */,
+				820EC9A97131174D9096E9C8E9A3F139 /* UIButtonX.modulemap */,
+				9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */,
+				4126ED9F759D770E4C4E3831E625C23D /* UIButtonX-dummy.m */,
+				B5940ACAAABD7B4BA14F454FFC004C6D /* UIButtonX-Info.plist */,
+				AEA16EC6C104C12FDA138C88DAE89FDC /* UIButtonX-prefix.pch */,
+				DA93A2F176762E273DBA00B5BFDBBFA4 /* UIButtonX-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UIButtonX";
@@ -522,12 +540,22 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				92DB9EB7D8A18C75B299554EAE025F7B /* Development Pods */,
+				6BA457CA141D6B028CF141B63CBE9187 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				BD2F1A6FE68DC5AF3C94418A88BB7E29 /* Pods */,
-				374D8279D042EF625DEFB0909B3851D7 /* Products */,
+				89C5877EAAF2E40B7A60A76755989A9A /* Products */,
 				520E97AF31AFBD2F87B7982C36A0ED11 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DE016588E9C855CE3385C87B5B288A2F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				328EF2A4364EB2297A4298848AC20113 /* LICENSE */,
+				58F48EA9176333C42AB66E85E4BAA9FE /* README.md */,
+				3D900C005C0C55BB3BD3C460F1671CCD /* UIButtonX.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E2697886F3CD10A152F47D611F1B1A3B /* Nimble */ = {
@@ -605,25 +633,8 @@
 				7AF3B3EFA75292B9FDDC5E6B447AEEAC /* XCTestObservationCenter+Register.m */,
 				FF18E9D757C04B2D9DD64D169490B0B4 /* Support Files */,
 			);
+			name = Nimble;
 			path = Nimble;
-			sourceTree = "<group>";
-		};
-		E88FC24422B297C200197340 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E88FC24C22B297F300197340 /* UIButtonX.swift */,
-			);
-			name = Classes;
-			path = UIButtonX/Classes;
-			sourceTree = "<group>";
-		};
-		E88FC24722B297C200197340 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E83BC4BD22B2B1F4000359BC /* Icons.xcassets */,
-			);
-			name = Assets;
-			path = UIButtonX/Assets;
 			sourceTree = "<group>";
 		};
 		EDF1A86CF327EB110CDB275D6940B008 /* Support Files */ = {
@@ -657,6 +668,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		12E0D23A03BAAF9654630CE31E416083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E60823DEC3ACD6F050B8D71A7879E5 /* UIButtonX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AD9E70379849A83B0FA68BD3A7B2D56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -699,14 +718,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2387626B5E3EB0760DF45E0A3BD29144 /* Pods-UIButtonX_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC304F707583709BACCE7B3D0840A4BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0699577BD607757197C301E6F4E1822E /* UIButtonX-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,18 +800,36 @@
 			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EF14AAE872C4AD4970D375F02A6DE710 /* UIButtonX */ = {
+		D88611A020BCD6723575BBEDC21BE74E /* UIButtonX-UIButtonX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A939C386CFE9970303AEA1D4D69D4EF3 /* Build configuration list for PBXNativeTarget "UIButtonX" */;
+			buildConfigurationList = C27D991CFF738392CEE8DA99A6F23529 /* Build configuration list for PBXNativeTarget "UIButtonX-UIButtonX" */;
 			buildPhases = (
-				DC304F707583709BACCE7B3D0840A4BD /* Headers */,
-				722FEA3B555E35C84B70D1C35A86E22C /* Sources */,
-				2248781C7789F361D49A868CA28F868F /* Frameworks */,
-				0CFDA04A5CBEF860BA9F0A2F390E8FA0 /* Resources */,
+				E66E008CBCC815C35715A0481910934D /* Sources */,
+				7D3657CCF7566E5A841345E9A966C8B4 /* Frameworks */,
+				F926E99D3FFE061941BBC7CB2BFAE050 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "UIButtonX-UIButtonX";
+			productName = "UIButtonX-UIButtonX";
+			productReference = 2746F21BBF7ECE8E6F40EC81BCEAA71C /* UIButtonX.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EF14AAE872C4AD4970D375F02A6DE710 /* UIButtonX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4087855C632EE5A6894304496435DF1 /* Build configuration list for PBXNativeTarget "UIButtonX" */;
+			buildPhases = (
+				12E0D23A03BAAF9654630CE31E416083 /* Headers */,
+				84137A42688A4211291BD6458179789C /* Sources */,
+				CC5985BDC33789306A4A797E663CADB5 /* Frameworks */,
+				766C36A778FF371ACF79EB7B83396474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C64816750D30B78723A1DC28A9ED5D3 /* PBXTargetDependency */,
 			);
 			name = UIButtonX;
 			productName = UIButtonX;
@@ -815,17 +844,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					6F13695E06195A78EA8A95F8C7ED0D2F = {
-						LastSwiftMigration = 1020;
-					};
-					C82891EAB7293DBEE916B21F57E8474D = {
-						LastSwiftMigration = 1020;
-					};
-					EF14AAE872C4AD4970D375F02A6DE710 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -835,7 +853,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 374D8279D042EF625DEFB0909B3851D7 /* Products */;
+			productRefGroup = 89C5877EAAF2E40B7A60A76755989A9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -844,18 +862,12 @@
 				C2ADEAD983B2E3ED89E9CA6607A898B9 /* Pods-UIButtonX_Tests */,
 				C82891EAB7293DBEE916B21F57E8474D /* Quick */,
 				EF14AAE872C4AD4970D375F02A6DE710 /* UIButtonX */,
+				D88611A020BCD6723575BBEDC21BE74E /* UIButtonX-UIButtonX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CFDA04A5CBEF860BA9F0A2F390E8FA0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		40029F48A8ECF654B240A11F05146857 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -870,11 +882,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		766C36A778FF371ACF79EB7B83396474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544360734AA90C59FF9C17AB7B55E138 /* UIButtonX.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD1799A208BE417CCE05899E167D813E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83BC4BE22B2B1F4000359BC /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,6 +901,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F926E99D3FFE061941BBC7CB2BFAE050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CD5682310C69C39DC8C2C3D45530F5 /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -991,12 +1018,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		722FEA3B555E35C84B70D1C35A86E22C /* Sources */ = {
+		84137A42688A4211291BD6458179789C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88FC24D22B297F300197340 /* UIButtonX.swift in Sources */,
-				A9D03E27D39F118F066BC1068E4E8669 /* UIButtonX-dummy.m in Sources */,
+				2F56464DA4DBDBA0FAACA19CE78280FA /* UIButtonX-dummy.m in Sources */,
+				BF70F79C9825419FCCD9B031AEA4A202 /* UIButtonX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1016,9 +1043,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E66E008CBCC815C35715A0481910934D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4C64816750D30B78723A1DC28A9ED5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIButtonX-UIButtonX";
+			target = D88611A020BCD6723575BBEDC21BE74E /* UIButtonX-UIButtonX */;
+			targetProxy = A48AD0ABE63E38EFCFFF37EDBEBA0C3E /* PBXContainerItemProxy */;
+		};
 		5CF4EA507803CF4689F776650DCFA8BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIButtonX;
@@ -1070,7 +1110,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1102,7 +1142,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1133,7 +1173,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1275,6 +1315,37 @@
 			};
 			name = Release;
 		};
+		9F166FD0648D18D14DE80B010F29E8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonX/UIButtonX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonX/UIButtonX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonX/UIButtonX.modulemap";
+				PRODUCT_MODULE_NAME = UIButtonX;
+				PRODUCT_NAME = UIButtonX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1328,7 +1399,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1398,9 +1470,9 @@
 			};
 			name = Debug;
 		};
-		BB78ED13073FA352BF2B1AF42B185B55 /* Release */ = {
+		C8FD0E74CA9E27275B1ABB6936FE1815 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA4D949671A8E816CFDB78728F053EB9 /* UIButtonX.xcconfig */;
+			baseConfigurationReference = 9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1430,37 +1502,6 @@
 			};
 			name = Release;
 		};
-		CAD8D7148ED9FDC61B80026EDD0E3526 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA4D949671A8E816CFDB78728F053EB9 /* UIButtonX.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIButtonX/UIButtonX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIButtonX/UIButtonX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIButtonX/UIButtonX.modulemap";
-				PRODUCT_MODULE_NAME = UIButtonX;
-				PRODUCT_NAME = UIButtonX;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CF389F750F700469742970304E1E1BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90C5E2161B26FB91DE16BFC45DAEC7BF /* Nimble.xcconfig */;
@@ -1485,10 +1526,42 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4B6C495F37607AFD75DD17CE38452DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UIButtonX";
+				INFOPLIST_FILE = "Target Support Files/UIButtonX/ResourceBundle-UIButtonX-UIButtonX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UIButtonX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DCD74EA1D978468B80CA960EB2DA17B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0CBF33E252ADD7E94891402484EDB8 /* UIButtonX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UIButtonX";
+				INFOPLIST_FILE = "Target Support Files/UIButtonX/ResourceBundle-UIButtonX-UIButtonX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UIButtonX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1531,11 +1604,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A939C386CFE9970303AEA1D4D69D4EF3 /* Build configuration list for PBXNativeTarget "UIButtonX" */ = {
+		C27D991CFF738392CEE8DA99A6F23529 /* Build configuration list for PBXNativeTarget "UIButtonX-UIButtonX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAD8D7148ED9FDC61B80026EDD0E3526 /* Debug */,
-				BB78ED13073FA352BF2B1AF42B185B55 /* Release */,
+				DCD74EA1D978468B80CA960EB2DA17B0 /* Debug */,
+				D4B6C495F37607AFD75DD17CE38452DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4087855C632EE5A6894304496435DF1 /* Build configuration list for PBXNativeTarget "UIButtonX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F166FD0648D18D14DE80B010F29E8CE /* Debug */,
+				C8FD0E74CA9E27275B1ABB6936FE1815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

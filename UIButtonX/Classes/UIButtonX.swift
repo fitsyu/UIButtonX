@@ -7,7 +7,6 @@
 
 import UIKit
 
-//@IBDesignable
 public class UIButtonX: UIButton {
     
     public var dismissButton: UIButton {
@@ -23,8 +22,8 @@ public class UIButtonX: UIButton {
         let button = UIButton(frame: aFrame)
         
         // appearance
-        
-        button.setImage(UIImage(named: "close"), for: .normal)
+        let closeImage = UIImage(podAssetName: "close")
+        button.setImage(closeImage, for: .normal)
         
         button.layer.cornerRadius = button.frame.width * 0.5
         button.layer.borderColor = self.tintColor.cgColor
@@ -90,4 +89,22 @@ public class UIButtonX: UIButton {
 public extension UIControl.Event {
     
     static var dismissed: UIControl.Event = UIControl.Event(rawValue: 0b0010 << 24)
+}
+
+extension UIImage {
+    
+    convenience init?(podAssetName: String) {
+        let podBundle = Bundle(for: UIButtonX.self)
+        
+        /// A given class within your Pod framework
+        guard let url = podBundle.url(forResource: "UIButtonX",
+                                      withExtension: "bundle") else {
+                                        return nil
+                                        
+        }
+        
+        self.init(named: podAssetName,
+                  in: Bundle(url: url),
+                  compatibleWith: nil)
+    }
 }
