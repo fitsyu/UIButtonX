@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'UIButtonX'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIButtonX.'
+  s.summary          = 'Subclass of UIButton with X button at the right to make it disappears'
 
+  s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +19,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  
+  the UIButtonX
+  
+  - it disappears when 'x' is pressed -> custom drawing
+  - it notifies when it is about to disappear -> generate an event 'dismissed'
+  - it self-sizing -> has intrinsic content size
+  - it is a half-rounded -> layer customization
+  - it is bordered with black color -> layer customization
+  - it is subclass of UIButton -> implementing Liskov Substitution Princible
+  
+  ```
+  // the name has been carefully selected
+  // to reflect its design purpose :)
+  let button = UIButtonX()
+  button.setTitle("Gold Merchant", forState: .normal)
+  button.addTarget(self, #selector(dismissed), forEvent: dismissed)
+  ```
                        DESC
 
   s.homepage         = 'https://github.com/fitsyu/UIButtonX'
