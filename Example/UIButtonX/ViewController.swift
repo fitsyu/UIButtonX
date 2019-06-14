@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     
     @IBAction func fillWithSixButtonX() {
         
-        for i in 1...6 {
+        let numbers = [ "one", "two" , "three" , "four" , "five", "six"]
+        
+        for i in numbers {
             
             let buttonX = UIButtonX()
             buttonX.setTitle("button x: \(i)", for: .normal)

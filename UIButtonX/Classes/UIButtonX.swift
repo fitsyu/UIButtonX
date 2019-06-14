@@ -9,6 +9,8 @@ import UIKit
 
 public class UIButtonX: UIButton {
     
+    public var xIcon: UIImage? = UIImage(podAssetName: "close")
+    
     public var dismissButton: UIButton {
         
         // setup the frame
@@ -22,7 +24,7 @@ public class UIButtonX: UIButton {
         let button = UIButton(frame: aFrame)
         
         // appearance
-        let closeImage = UIImage(podAssetName: "close")
+        let closeImage = xIcon
         button.setImage(closeImage, for: .normal)
         
         button.layer.cornerRadius = button.frame.width * 0.5
@@ -42,8 +44,10 @@ public class UIButtonX: UIButton {
         
         if #available(iOS 10.0, *) {
             
-           let disappearing = UIViewPropertyAnimator(duration: 0.5, dampingRatio: 0.5, animations: {
-                self.alpha = 0
+            let disappearing = UIViewPropertyAnimator(duration: 0.5,
+                                                      dampingRatio: 0.5,
+                                                      animations: {
+                                                        self.alpha = 0
             })
             
             
@@ -56,14 +60,12 @@ public class UIButtonX: UIButton {
         } else {
             self.removeFromSuperview()
         }
-        
-        
     }
     
     public override func draw(_ rect: CGRect) {
         super.draw(rect)
         
-        setTitleColor(UIColor.darkGray, for: .normal)
+        setTitleColor(tintColor, for: .normal)
         
         // appearance
         layer.cornerRadius = frame.size.height * 0.5
@@ -79,7 +81,7 @@ public class UIButtonX: UIButton {
     
     public override var intrinsicContentSize: CGSize {
         
-        let wideningSpell = CGAffineTransform(scaleX: 2.5, y: 1)
+        let wideningSpell = CGAffineTransform(scaleX: 1.6, y: 1)
         let added30 = super.intrinsicContentSize.applying(wideningSpell)
         return added30
     }
@@ -96,15 +98,12 @@ extension UIImage {
     convenience init?(podAssetName: String) {
         let podBundle = Bundle(for: UIButtonX.self)
         
-        /// A given class within your Pod framework
-        guard let url = podBundle.url(forResource: "UIButtonX",
-                                      withExtension: "bundle") else {
-                                        return nil
-                                        
+        guard
+            let url = podBundle.url(forResource: "UIButtonX", withExtension: "bundle")
+            else {
+                return nil
         }
         
-        self.init(named: podAssetName,
-                  in: Bundle(url: url),
-                  compatibleWith: nil)
+        self.init(named: podAssetName, in: Bundle(url: url), compatibleWith: nil)
     }
 }
